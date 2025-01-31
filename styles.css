@@ -1,21 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    min-height: 100vh;
     font-family: Roboto, sans-serif;
+
 }
 
 .box {
     background-color: #1f2937;
 }
 
+
+
 .header {
-    margin: 5px;
+    padding: 10px 330px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
+    justify-content: space-between;
+
+    background-color: #1f2937;
+
 }
 
 .logo {
@@ -25,46 +34,54 @@ body {
 .header-links {
     display: flex;
     list-style-type: none;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 30px;
 }
 
 .header-links a {
     color: #e5e7eb;
     text-decoration: none;
 }
-
-.inner {
-    position: absolute;
-    width: 80%;
-    left: 10%;
-}
-
-.image {
-    float: right;
-    width: 50%;
-    height: 50%;
-}
-
 .bo {
     background-color: #1f2937;
-    padding: 10%;
+    padding: 100px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 500px;
+    gap: 160px;
+
 }
 
 .inner h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    text-wrap: wrap;
+
 }
 
 .inner p {
     font-size: 18px;
     color: #e5e7eb;
+
+
+}
+
+.bo img {
+    height: 275px;
+    width: 800px;
+
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    flex-wrap: wrap;
+    gap: 26px;
 
 }
 
@@ -77,6 +94,6 @@ body {
     text-align: center;
     width: 150px;
     height: auto;
-    font-weight: bolder;
+    font-weight: bold;
     border-radius: 12px;
 }
