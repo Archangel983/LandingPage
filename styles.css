@@ -11,20 +11,13 @@ body {
 
 }
 
-.box {
-    background-color: #1f2937;
-}
-
-
 
 .header {
     padding: 10px 330px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     background-color: #1f2937;
-
 }
 
 .logo {
@@ -46,10 +39,10 @@ body {
 }
 .bo {
     background-color: #1f2937;
-    padding: 100px 0;
-    display: flex;
+    display: flex;    
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
     height: 500px;
     gap: 160px;
 
