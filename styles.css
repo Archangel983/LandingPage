@@ -46,14 +46,16 @@ body{
     justify-content:space-between;
     align-items: center; 
 }
-h1{
+.inner h1{
     font-size:48px;
     color:#f9faf8;
     font-weight:900;
+    text-wrap: wrap;
 }
 .inner p{
     font-size: 18px;
     color:#e5e7eb;
+    
 }
 .inner button{
 background-color: #3882f6;
