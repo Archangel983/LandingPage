@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     margin:0;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 .box{
     background-color: #1f2937;
@@ -59,9 +59,11 @@ h1{
 background-color: #3882f6;
 border: none;
 color:white;
-font-size: 24px;
-padding:20px;
+font-size: 21px;
+padding:10px 15px;
 text-align:center;
-width:250px;
+width:150px;
 height:auto;
+font-weight: bolder;
+border-radius: 12px;
 }
