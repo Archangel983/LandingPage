@@ -1,71 +1,82 @@
-body{
-    display:flex;
+body {
+    display: flex;
     flex-direction: column;
-    margin:0;
+    margin: 0;
     min-height: 100vh;
     font-family: Roboto, sans-serif;
 }
-.box{
+
+.box {
     background-color: #1f2937;
 }
-.header{
-    margin:5px;
-    display:flex;
+
+.header {
+    margin: 5px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size:20px;
+    font-size: 20px;
 }
-.logo{
-    height:80%;
+
+.logo {
+    height: 80%;
 }
-.header-links{
+
+.header-links {
     display: flex;
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    gap:10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 }
-.header-links a{
-    color:#e5e7eb;
+
+.header-links a {
+    color: #e5e7eb;
     text-decoration: none;
 }
-.inner{
-    position:absolute;
-    width:80%;
-    left:10%;
+
+.inner {
+    position: absolute;
+    width: 80%;
+    left: 10%;
 }
-.image{
-    float:right;
-    width:50%;
-    height:50%;
+
+.image {
+    float: right;
+    width: 50%;
+    height: 50%;
 }
-.bo{
+
+.bo {
     background-color: #1f2937;
-    padding:10%;
-    display:flex;
-    justify-content:space-between;
-    align-items: center; 
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.inner h1{
-    font-size:48px;
-    color:#f9faf8;
-    font-weight:900;
+
+.inner h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
     text-wrap: wrap;
 }
-.inner p{
+
+.inner p {
     font-size: 18px;
-    color:#e5e7eb;
-    
+    color: #e5e7eb;
+
 }
-.inner button{
-background-color: #3882f6;
-border: none;
-color:white;
-font-size: 21px;
-padding:10px 15px;
-text-align:center;
-width:150px;
-height:auto;
-font-weight: bolder;
-border-radius: 12px;
+
+.inner button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-size: 21px;
+    padding: 10px 15px;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    font-weight: bolder;
+    border-radius: 12px;
 }
