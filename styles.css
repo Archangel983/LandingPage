@@ -13,7 +13,7 @@ body {
 
 
 .header {
-    padding: 10px 330px;
+    padding: 10px 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,11 +44,12 @@ body {
     align-items: center;
     padding: 100px 0;
     height: 500px;
-    gap: 160px;
+    gap: 75px;
 
 }
 
 .inner h1 {
+    padding-left: 10px;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -56,6 +57,7 @@ body {
 }
 
 .inner p {
+    padding-left: 10px;
     font-size: 18px;
     color: #e5e7eb;
 
