@@ -146,3 +146,54 @@ figcaption{
     padding-right:255px;
     font-weight: bold;
 }
+.d{
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+.d .inner-rectangle{
+    height:150px;
+    width:60%;
+    background-color: #3882f6;
+    padding:50px 120px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#f9faf8;
+    border-radius: 15px;
+}
+.d .inner-text{
+    color:#ffff;
+    line-height: 1.2;
+}
+.d .inner-rectangle .inner-text .upper{
+    font-size: 26px;
+    font-weight: 700;
+}
+.d .inner-rectangle .inner-text .lower{
+    font-size: 22px;
+    color:lightgrey;
+}
+
+.d .inner-rectangle button{
+    padding:8px 45px;
+    font-size: 20px;
+    background-color: #3882F6;
+    color:#fff ;
+    border:2px solid white;
+    border-radius: 10px;
+    font-weight: 700;
+    justify-content: flex-end;
+    align-self:center;
+}
+.footer{
+    height:100px;
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffff;
+    font-size:18px;
+}
