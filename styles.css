@@ -138,11 +138,11 @@ figcaption{
     color:#1f2937;
     font-weight:300;
     text-align: justify;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .D .by{
     align-self:flex-end;
     font-size:24px;
-    padding-right:250px;
+    padding-right:255px;
     font-weight: bold;
 }
